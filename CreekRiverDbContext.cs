@@ -39,9 +39,9 @@ public class CreekRiverDbContext : DbContext
             new UserProfile
             {
                 Id = 1,
-                FirstName = "Cody",
-                LastName = "Tucker",
-                Email = "hurlyburly@gmail.com" }
+                FirstName = "Austin",
+                LastName = "Mangum",
+                Email = "mangumaustin@gmail.com" }
             });
 
         modelBuilder.Entity<Reservation>().HasData(new Reservation[] {
